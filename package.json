@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "test": "jest --watchAll --coverage",
     "test:pro": "jest --watchAll --coverage --watchAll=false --passWithNoTests",
-    "test:coverage": "jest --watchAll --coverage"
+    "test:coverage": "jest --watchAll --coverage",
+    "test:w": "jest --watchAll --coverage --collectCoverageFrom=src/*/.{ts,tsx}",
+    "test:f": "jest --watchAll --coverage"
   },
   "dependencies": {
     "react": "^18.2.0",
